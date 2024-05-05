@@ -2,10 +2,9 @@
 By Jing Ling
 
 # Project overview 
-This website is about a Mental Health Awareness Festival. I chose to represent this cause because I struggled with my mental health for a long time without having the resources I wish I had today. My audiences are mainly teens and young adults. I think this topic is important to address because young people should know that they are not alone in their struggles and that there are resources to help them. Mental health can be a hard topic to discuss but by bringing awareness to it through events like this festival, it provides a safe space for individuals to talk about their experiences and seek help if needed. Furthermore, I think addressing mental health early can prevent future problems and promote overall well-being. 
+Welcome to the Mindscape Fest! My primary goal is to create a safe and inclusive space where individuals can openly discuss their mental health struggles, access resources, and seek support if needed. By raising awareness and breaking down stigmas, I hope to empower young people to prioritize their mental well-being and seek help when necessary. The target audiences are teens and young adults who may be struggling with their mental health or seeking more information and support. I aim to reach out to individuals who may feel isolated or misunderstood in their experiences, providing them with a supportive community and valuable resources. This festival is more than just an event. It's a movement towards destigmatizing mental health and creating a culture of openness and support. I invite you to join us in this journey as we strive to make a difference.
 
-The opening event is on a Friday which consist of musical performances by Ariana Grande, Selena Gomez, and Demi Lovato. I specifically chose these artists to perform because they have talked about their mental health publicly and spread awareness. The following events are self-care activities such as guided meditation, yoga, nails, walks around the Golden Gate Park. The closing event is a Nickelodeon Q&A. It involves Nickelodeon stars talking about their experiences in the industry and how it impacted their mental health. Tote bages containing items such as CBD lotion, chocolates, hand massage, stress ball, and bath bombs will be on sale.
-
+The opening event is on a Friday consisting of musical performances by Ariana Grande, Selena Gomez, and Demi Lovato. These artists are chosen to perform because they have talked about their mental health publicly and spread awareness. The following events are self-care activities such as guided meditation, yoga, nails, and walks around the Golden Gate Park. The closing event is a Nickelodeon Q&A. It involves Nickelodeon stars talking about their experiences in the industry and how it impacted their mental health. There are also tote bages containing items such as CBD lotion, chocolates, hand massage, stress ball, and bath bombs on sale. 
 
 # Technical overview 
 WORK IN PROGRESS
@@ -17,3 +16,7 @@ https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=shari
 
 # Acknowledgment
 Fonts: Libre Baskerville, Platypi, Poppins
+
+
+<!-- I would move away from language that makes this "just" a school project. Instead, take your passion for the subject and use that to activate your voice. Write this as if you were creating a real website for a real client.
+ -->

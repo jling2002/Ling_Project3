@@ -9,14 +9,13 @@ The opening event is on a Friday consisting of musical performances by Ariana Gr
 # Technical overview 
 WORK IN PROGRESS
 
-There are 4 pages: home, about, events, and shop. The home page has a short overview about the event, location, and its targeted audience. 
+There are 4 pages: home, about, events, and shop. The home page has a short overview about the event, location, and its targeted audience. The user can use the navigation bar at the top right to navigate through the pages. The home page consist of information about mental health. The about page is the importance of mental health awareness and resources. The following page contains the events at the festival. The last page offers tote bages for users to further support this cause.
 
 # Branding Guide & Other Files Link
 https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=sharing
 
+# Mock Up Images
+
 # Acknowledgment
 Fonts: Libre Baskerville, Platypi, Poppins
 
-
-<!-- I would move away from language that makes this "just" a school project. Instead, take your passion for the subject and use that to activate your voice. Write this as if you were creating a real website for a real client.
- -->

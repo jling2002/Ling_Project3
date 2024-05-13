@@ -103,7 +103,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(246, 177, 207, 0.5), rgba(136, 197, 64, 0.4))
+    background: linear-gradient(rgba(246, 177, 207, 0.5), rgba(240, 108, 169, 0.6))
 
   }
 
@@ -122,6 +122,7 @@ a:hover {
     /* text-align: left; */
     text-align: center;
     display: flex;
+    text-shadow: 1px 2px 3px #333;
   }
 
 .homeoverlaytext2 {
@@ -136,6 +137,7 @@ a:hover {
     font-style: normal;
     text-align: center;
     display: flex;
+    text-shadow: 1px 2px 3px #333;
   }
 
 .buy-button {
@@ -155,8 +157,8 @@ a:hover {
     letter-spacing: 0.0625em;
     text-decoration: none;
     padding: 0.625em;
-    background: #f06ca9;
-    border: 0.0625em solid #f06ca9;
+    background: #50b848;
+    border: 0.0625em solid #50b848;
     border-radius: 0.1875em;
 }
 
@@ -205,7 +207,13 @@ a:hover {
     margin-right: 16%;
     margin-top: 4%;
     margin-bottom: 1%;
+    animation: neon-animation infinite;
+    animation-delay: 2.5s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+
   }
+
 
 .heading2 {
     color: #50b848;
@@ -215,6 +223,10 @@ a:hover {
     font-size: 2rem;
     margin-top: 4%;
     margin-bottom: 2%;
+    animation: neon-animation infinite;
+    animation-delay: 2.5s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
 }
 
 p {
@@ -396,7 +408,7 @@ color: black;
 
 /* FOOTER */
 .footer {
-    background: linear-gradient(rgba(80, 184, 72, 0.8), rgba(240, 108, 169, 0.8));
+    background: linear-gradient(rgba(136, 197, 64, 0.8), rgba(80, 184, 72, 0.8));
     padding: 3% 0;
     margin-top: 3%;
   }
@@ -411,7 +423,6 @@ color: black;
 .row {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .footerlogo {
@@ -440,7 +451,7 @@ ul {
     font-size: 140%;
     margin-bottom: 5%;
     margin-top: 5%;
-  }
+  } 
 
   /* .footer-menu a h3 {
     color: white;
@@ -450,12 +461,8 @@ ul {
     font-size: 140%;
     margin-bottom: 5%;
     margin-top: 5%;
-  } */
+  }  */
 
-  .removeunderline {
-    text-decoration: none;
-  }
-  
   .footer-menu  ul  li {
     color: white;
     font-family: "poppins", sans-serif;
@@ -463,11 +470,11 @@ ul {
     font-style: normal;
     font-size: 105%;
     cursor: pointer;
+    text-decoration: none;
   }
   
   .footer-menu  ul  li:hover {
-    text-decoration: underline;
-    text-decoration-color: #50b848;
+    color: #f06ca9;
   }
   
   .footer-menu  ul  li  a {
@@ -480,9 +487,8 @@ ul {
   }
   
 .footer-menu  ul  li  a:hover {
-    text-decoration: underline;
-    text-decoration-color: #50b848;
-  }
+    color: #f06ca9;
+  } 
 
 /* KEYFRAMES */
 
@@ -495,6 +501,16 @@ ul {
     }
   }
 
+@keyframes neon-animation {
+    60% {
+        color: #50b848; 
+        text-shadow: 0 0 15px #f6b1cf, 0 0 25px #f6b1cf, 0 0 35px #f6b1cf;
+    }
+    90% {
+        color: #50b848; 
+        text-shadow: none;
+    }
+}
 
 /* RESPONSIVE */
 
@@ -581,11 +597,12 @@ ul {
 
 /* KEYFRAMES */
 
-  @keyframes buy-button {
+  /* @keyframes buy-button {
     from {
       width: 45%;
   }
     to {
     transform: scale(70%);
     }
-  }
+  } */
+

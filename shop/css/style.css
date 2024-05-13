@@ -166,16 +166,31 @@ a:hover {
 	flex-direction: row;
 }
 
-h3 {
+h2 {
 	display: block;
 	font-family: "Platypi", sans-serif;
 	font-weight: 500;
-	font-style: italic;
-	color: black;
+	font-style: normal;
 	text-align: center;
-	font-size: 2vw;
-	margin-top: -17%;
-	margin-left: 19%;
+	font-size: 200%;
+	margin-top: -2%;
+	margin-left: 25%;
+}
+
+.pinkglow {
+    animation: neon-animation2 infinite;
+    animation-delay: 2.5s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    color: #f06ca9;
+}
+
+.greenglow {
+    animation: neon-animation infinite;
+    animation-delay: 2.5s;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    color: #50b848;
 }
 
   /* FOOTER */
@@ -263,3 +278,35 @@ h3 {
     color: #f06ca9;
   } 
   
+  /* KEYFRAMES */
+
+@keyframes emerge {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+
+  @keyframes neon-animation {
+    60% {
+        color: #50b848; 
+        text-shadow: 0 0 15px #f6b1cf, 0 0 25px #f6b1cf, 0 0 35px #f6b1cf;
+    }
+    90% {
+        color: #50b848; 
+        text-shadow: none;
+    }
+  }
+
+  @keyframes neon-animation2 {
+    60% {
+        color: #f06ca9; 
+        text-shadow: 0 0 15px #88c540, 0 0 25px #88c540, 0 0 35px #88c540;
+    }
+    90% {
+        color: #f06ca9; 
+        text-shadow: none;
+    }
+  }

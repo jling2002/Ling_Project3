@@ -23,3 +23,4 @@ https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=shari
 # Acknowledgment
 Fonts: Libre Baskerville, Platypi, Poppins
 
+<!-- give credits to the images used + resources for the codes-->

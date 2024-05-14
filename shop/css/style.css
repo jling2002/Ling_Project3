@@ -149,7 +149,7 @@ a:hover {
 	display: inline-block;
 	height: 50%;
 	margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
     width: 45%;
 }
 
@@ -157,7 +157,7 @@ a:hover {
 	display: inline-block;
 	height: 50%;
 	margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
     width: 45%;
 }
 
@@ -172,7 +172,7 @@ h2 {
 	font-weight: 00;
 	font-style: normal;
 	text-align: center;
-	font-size: 200%;
+	font-size: 180%;
 	margin-top: -2%;
 	margin-left: 21%;
 }

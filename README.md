@@ -15,6 +15,10 @@ There are 4 pages: home, about, events, and shop. The home page has a short over
 https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=sharing
 
 # Mock Up Images
+![Totebag1 Image](./img/totebag%201%20design.png)
+![Totebag2 Image](./img/totebag%202%20design.png)
+![Totebag1 Mockup](./shop/img/totebag1%20mockup.png)
+![Totebag2 Mockup](./shop/img/totebag2%20mockup.png)
 
 # Acknowledgment
 Fonts: Libre Baskerville, Platypi, Poppins

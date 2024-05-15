@@ -191,10 +191,6 @@ p {
 	justify-content: space-around;
 }
 
-/* .left {
-    margin-left: 15%;
-} */
-
 .textcontainer {
 	display: inline-block;
 	flex-grow: 3;
@@ -212,10 +208,6 @@ p {
 .bodyimagecontainer {
 	display: inline-block;
 }
-
-/* .right {
-    margin-left: 50%;
-} */
 
 .pright {
 	text-align: left;

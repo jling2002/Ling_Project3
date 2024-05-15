@@ -160,8 +160,8 @@ p {
 .buy-button {
   display: flex;
   width: 100%;
-  justify-content: center;
-  margin-top: 2%;
+  justify-content: left;
+  margin-top: 2.5%;
 }
 
 .buy-button a {

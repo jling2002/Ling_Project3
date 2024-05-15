@@ -11,7 +11,7 @@ WORK IN PROGRESS
 
 There are 4 pages: home, about, events, and shop. The home page has a short overview about the event, location, and its targeted audience. The user can use the navigation bar at the top right to navigate through the pages. The home page consist of information about mental health. The about page is the importance of mental health awareness and resources. The following page contains the events at the festival. The last page offers tote bages for users to further support this cause.
 
-The logo and graphic images were edited in Adobe Photoshop and Illustrator.
+The logo gif and graphic images were edited in Adobe Photoshop and Illustrator.
 
 # Branding Guide & Other Files Link
 https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=sharing
@@ -25,7 +25,8 @@ https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=shari
 # Acknowledgment
 Fonts: Libre Baskerville, Platypi, Poppins
 
-<!-- give credits to the images used + resources for the codes-->
+Color overlay - https://www.youtube.com/watch?v=jAXF7oS0RB4
+
 
 # Image Sources:
 

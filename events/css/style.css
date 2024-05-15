@@ -79,18 +79,193 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: #f06ca9;
   }
+
+
+.heading {
+    color: #f06ca9;
+    font-family: "Platypi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    text-shadow: 1px 2px 2px #333;
+}
   
+
+
 p {
     font-size: 140%;
     font-family: "poppins", sans-serif;
-  }
+}
 
-  .imagecontainer {
-    position: relative;
-    width: 100%;
-    max-width: 100%; 
-    overflow: hidden;
-  }
+
+/* EVENT */
+.wheel {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none; 
+}
+
+.imagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
+}
+
+.coloroverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(246, 177, 207, 0.5), rgba(240, 108, 169, 0.6))
+
+}
+
+.event-overlaytext {
+  position: absolute;
+  /* top: 45%;
+  left: 27%; */
+  top: 45%;
+  left: 10%;
+  /* transform: translate(-20%, -150%); */
+  color: white;
+  font-size: 350%;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  /* text-align: left; */
+  text-align: center;
+  display: flex;
+  text-shadow: 1px 2px 3px #333;
+} 
+
+.eventinvitation  {
+  color: black;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180%;
+  display: flex;
+  text-align: left;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 3%;
+  /*text-align: justify;*/
+}
+
+.buy-button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.buy-button a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5625em;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  text-decoration: none;
+  padding: 0.625em;
+  background: #50b848;
+  border: 0.0625em solid #50b848;
+  border-radius: 0.1875em;
+}
+
+.buy-button a:hover {
+  box-shadow: 1px 2px 5px #333;
+}
+
+.background {
+  margin-left: 15%;
+  width: 70%;
+  padding: 1%;
+  padding: auto;
+}
+
+.right {
+  margin-left: 50%;
+}
+
+.pright {
+  text-align: left;
+}
+
+.rowbody{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.left {
+  margin-left: 15%;
+}
+
+.textcontainer{
+  display: inline-block;
+  width: 50%;
+}
+
+.pleft {
+  text-align: left;
+}
+
+
+.concertbox{
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.people {
+  max-width: 1956px;
+  width: 100%;
+  height: auto;
+}
+
+.day1 {
+  margin-top: 1%;
+}
+
+.relaxing {
+  max-width: 1622px;
+  width: 100%;
+  height: auto;
+}
+
+.relaxingbox {
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.day2 {
+  margin-top: 2%;
+}
+
+.conferencebox {
+  margin-left: 5%;
+  width: 38%;
+  margin-right: 5%;
+}
+
+.nickelodeon {
+  max-width: 1956px;
+  width: 100%;
+  height: auto;
+}
+
+.day3 {
+  margin-bottom: 5%;
+}
+
+
 
   
 /* FOOTER */
@@ -198,4 +373,15 @@ ul {
     margin-right: 40%;
     margin-top: 6%;
     color: white;
+  }
+
+  /* KEYFRAMES */
+
+  @keyframes emerge {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
   }

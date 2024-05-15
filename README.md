@@ -33,3 +33,14 @@ https://sanfranciscocentralhotel.com/explore-golden-gate-park/ (garden)
 
 https://meyersound.com/news/golden-gate-park/ (garden2)
 
+https://www.cbsnews.com/news/returning-fans-jolt-life-back-into-concert-biz/ (concert)
+
+https://www.psypost.org/study-15-minutes-of-meditation-associated-with-similar-effects-as-a-day-of-vacation/ (meditation)
+
+https://www.fargoparks.com/events-and-deadlines/yoga-park (yoga)
+
+https://beautymatter.com/articles/2023-global-beauty-trade-shows-and-conferences (conference)
+
+https://swissranks.com/?u=this-beauty-conference-totally-aced-planning-their-educational-event-vv-3JAwA6i0 (conference1)
+
+https://celebsecrets.com/nickelodeon-celebrates-grand-opening-of-west-coast-complex-with-special-event/ (nick)

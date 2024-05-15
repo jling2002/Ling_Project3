@@ -81,7 +81,7 @@ a:hover {
 }
 
 p {
-  font-size: 140%;
+  font-size: 145%;
   font-family: "poppins", sans-serif;
 }
 
@@ -147,11 +147,11 @@ p {
   margin-right: 16%;
   margin-top: 4%;
   margin-bottom: 2%;
-  animation: neon-animation2 infinite;
+  /* animation: neon-animation2 infinite;
   animation-delay: 2.5s;
   animation-duration: 3.5s;
-  animation-fill-mode: forwards;
-
+  animation-fill-mode: forwards; */
+  text-shadow: 1px 2px 2px #333;
 }
 
 .heading2{
@@ -165,10 +165,11 @@ p {
   margin-right: 16%;
   margin-top: 4%;
   margin-bottom: 2%;
-  animation: neon-animation infinite;
+  /* animation: neon-animation infinite;
     animation-delay: 2.5s;
     animation-duration: 3.5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+  text-shadow: 1px 2px 2px #333;
 }
 
 .textcontainer{
@@ -333,8 +334,9 @@ ul {
   margin-top: 6%;
   color: white;
 }
-/* KEYFRAMES */
 
+
+/* KEYFRAMES */
 @keyframes emerge {
   from {
     opacity: 0;

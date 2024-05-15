@@ -143,16 +143,16 @@ a:hover {
     text-shadow: 1px 2px 3px #333;
   }
 
-.buy-button {
+  .buy-button {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 2%;
   }
-
-.buy-button a {
+  
+  .buy-button a {
     font-family: "Poppins", sans-serif;
-    font-size: 1.875em;
+    font-size: 1.5625em;
     color: white;
     font-weight: 600;
     letter-spacing: 0.0625em;
@@ -161,11 +161,11 @@ a:hover {
     background: #50b848;
     border: 0.0625em solid #50b848;
     border-radius: 0.1875em;
-}
-
-.buy-button a:hover {
+  }
+  
+  .buy-button a:hover {
     box-shadow: 1px 2px 5px #333;
-}
+  }
 
 .introduction h2 {
     color: black;
@@ -181,21 +181,6 @@ a:hover {
     /*text-align: justify;*/
   }
 
-.introduction2  h2 {
-    color: black;
-    font-family: "poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 180%;
-    display: flex;
-    text-align: left;
-    margin-left: 16%;
-    margin-right: 16%;
-    /* margin-right: 15%;
-    margin-top: 3%;  */
-    /*text-align: justify;*/
-}
-
 .heading1{
     color: #50b848;
     font-family: "Platypi", sans-serif;
@@ -208,11 +193,11 @@ a:hover {
     margin-right: 16%;
     margin-top: 4%;
     margin-bottom: 1%;
-    animation: neon-animation infinite;
+    /* animation: neon-animation infinite;
     animation-delay: 2.5s;
     animation-duration: 3.5s;
-    animation-fill-mode: forwards;
-
+    animation-fill-mode: forwards; */
+    text-shadow: 1px 2px 3px #333;
   }
 
 
@@ -224,10 +209,11 @@ a:hover {
     font-size: 2rem;
     margin-top: 4%;
     margin-bottom: 2%;
-    animation: neon-animation infinite;
+    /* animation: neon-animation infinite;
     animation-delay: 2.5s;
     animation-duration: 3.5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+    text-shadow: 1px 2px 2px #333;
 }
 
 p {

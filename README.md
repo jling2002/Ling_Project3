@@ -27,6 +27,7 @@ Fonts: Libre Baskerville, Platypi, Poppins
 
 Color overlay - https://www.youtube.com/watch?v=jAXF7oS0RB4
 
+Image background - https://www.youtube.com/watch?v=zHZRFwWQt2w
 
 # Image Sources:
 

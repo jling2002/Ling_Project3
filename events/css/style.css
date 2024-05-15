@@ -1,387 +1,355 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #ededed;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #ededed;
 }
 
-.Animate {
-    animation-name: emerge ;
-    animation-delay: none;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
+.animate {
+	animation-name: emerge;
+	animation-delay: none;
+	animation-direction: alternate;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
 }
-
-/* HEADER */
 
 .header {
-    position: sticky;
-    top: 0;
-    background-color: #ededed;
-    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.2));
-    z-index: 100;
-  }
-  
-  .navbar {
-    width: 100%;
-    height: 15vh;
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .navbar a {
-    align-self: center;
-    display: block;
-    width: 70%;
-  }
-  
-  .headerlogo {
-    display: block;
-    width: 7.7%; 
-    height: auto;
-    margin-left: 10%;
-    float: left;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-self: center;
-  }
-  
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0% 15%;
-  }
-  
-nav  ul  li  a {
-    text-decoration: none;
-    color: #50b848;
-    font-family: "Libre Baskerville", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 140%;
-  }
-  
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: #f06ca9;
-  }
+	position: sticky;
+	top: 0;
+	background-color: #ededed;
+	filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.3));
+	z-index: 100;
+}
 
+.navbar {
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbar a {
+	align-self: center;
+	display: block;
+	width: 70%;
+}
+
+.headerlogo {
+	display: block;
+	width: 7.7%;
+	height: auto;
+	margin-left: 10%;
+	float: left;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-self: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 0% 15%;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #50b848;
+	font-family: "Libre Baskerville", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 140%;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: #f06ca9;
+}
 
 .heading {
-    color: #f06ca9;
-    font-family: "Platypi", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2rem;
-    margin-top: 4%;
-    margin-bottom: 3%;
-    text-shadow: 1px 2px 2px #333;
+	color: #f06ca9;
+	font-family: "Platypi", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2rem;
+	margin-top: 4%;
+	margin-bottom: 3%;
+	text-shadow: 1px 2px 2px #333;
 }
-  
-
 
 p {
-    font-size: 140%;
-    font-family: "poppins", sans-serif;
+	font-size: 140%;
+	font-family: "poppins", sans-serif;
 }
 
-
-/* EVENT */
 .wheel {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border: none; 
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border: none;
 }
 
 .imagecontainer {
-  position: relative;
-  width: 100%;
-  max-width: 100%; 
-  overflow: hidden;
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .coloroverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(246, 177, 207, 0.5), rgba(240, 108, 169, 0.6))
-
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(246, 177, 207, 0.5), rgba(240, 108, 169, 0.6))
 }
 
 .event-overlaytext {
-  position: absolute;
-  /* top: 45%;
-  left: 27%; */
-  top: 45%;
-  left: 10%;
-  /* transform: translate(-20%, -150%); */
-  color: white;
-  font-size: 350%;
-  font-family: "Libre Baskerville", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  /* text-align: left; */
-  text-align: center;
-  display: flex;
-  text-shadow: 1px 2px 3px #333;
-} 
+	position: absolute;
+	top: 45%;
+	left: 10%;
+	color: white;
+	font-size: 350%;
+	font-family: "Libre Baskerville", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	display: flex;
+	text-shadow: 1px 2px 3px #333;
+}
 
-.eventinvitation  {
-  color: black;
-  font-family: "poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 180%;
-  display: flex;
-  text-align: left;
-  margin-left: 16%;
-  margin-right: 16%;
-  margin-top: 3%;
-  /*text-align: justify;*/
+.eventinvitation {
+	color: black;
+	font-family: "poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 180%;
+	display: flex;
+	text-align: left;
+	margin-left: 16%;
+	margin-right: 16%;
+	margin-top: 3%;
 }
 
 .buy-button {
-  display: flex;
-  width: 100%;
-  justify-content: left;
-  margin-top: 2.5%;
+	display: flex;
+	width: 100%;
+	justify-content: left;
+	margin-top: 2.5%;
 }
 
 .buy-button a {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5625em;
-  color: white;
-  font-weight: 600;
-  letter-spacing: 0.0625em;
-  text-decoration: none;
-  padding: 0.625em;
-  background: #50b848;
-  border: 0.0625em solid #50b848;
-  border-radius: 0.1875em;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.5625em;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 0.0625em;
+	text-decoration: none;
+	padding: 0.625em;
+	background: #50b848;
+	border: 0.0625em solid #50b848;
+	border-radius: 0.1875em;
 }
 
 .buy-button a:hover {
-  box-shadow: 1px 2px 5px #333;
+	box-shadow: 1px 2px 5px #333;
 }
 
 .background {
-  margin-left: 15%;
-  width: 70%;
-  padding: 1%;
-  padding: auto;
+	margin-left: 15%;
+	width: 70%;
+	padding: 1%;
+	padding: auto;
 }
 
 .right {
-  margin-left: 50%;
+	margin-left: 50%;
 }
 
 .pright {
-  text-align: left;
+	text-align: left;
 }
 
-.rowbody{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content:space-around;
+.rowbody {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .left {
-  margin-left: 15%;
+	margin-left: 15%;
 }
 
-.textcontainer{
-  display: inline-block;
-  width: 50%;
+.textcontainer {
+	display: inline-block;
+	width: 50%;
 }
 
 .pleft {
-  text-align: left;
+	text-align: left;
 }
 
-
-.concertbox{
-  margin-left: 5%;
-  width: 38%;
-  margin-right: 5%;
+.concertbox {
+	margin-left: 5%;
+	width: 38%;
+	margin-right: 5%;
 }
 
 .people {
-  max-width: 1956px;
-  width: 100%;
-  height: auto;
+	max-width: 1956px;
+	width: 100%;
+	height: auto;
 }
 
 .day1 {
-  margin-top: 1%;
+	margin-top: 1%;
 }
 
 .relaxing {
-  max-width: 1622px;
-  width: 100%;
-  height: auto;
+	max-width: 1622px;
+	width: 100%;
+	height: auto;
 }
 
 .relaxingbox {
-  margin-left: 5%;
-  width: 38%;
-  margin-right: 5%;
+	margin-left: 5%;
+	width: 38%;
+	margin-right: 5%;
 }
 
 .day2 {
-  margin-top: 2%;
+	margin-top: 2%;
 }
 
 .conferencebox {
-  margin-left: 5%;
-  width: 38%;
-  margin-right: 5%;
+	margin-left: 5%;
+	width: 38%;
+	margin-right: 5%;
 }
 
 .nickelodeon {
-  max-width: 1956px;
-  width: 100%;
-  height: auto;
+	max-width: 1956px;
+	width: 100%;
+	height: auto;
 }
 
 .day3 {
-  margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 
-
-  
-/* FOOTER */
 .footer {
-    background: linear-gradient(rgba(136, 197, 64, 0.8), rgba(80, 184, 72, 0.8));
-    padding: 3% 0;
-    margin-top: 3%;
-  }
+	background: linear-gradient(rgba(136, 197, 64, 0.8), rgba(80, 184, 72, 0.8));
+	padding: 3% 0;
+	margin-top: 3%;
+}
 
 .footercontainer {
-    max-width: 1170px;
-    /*background-color: rgb(153, 216, 153);*/
-    margin: auto;
-
+	max-width: 1170px;
+	margin: auto;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .footerlogo {
-    display: block;
-    width: 5%; 
-    margin-left: 8%;
-    height: auto;
-    float: left;
+	display: block;
+	width: 5%;
+	margin-left: 8%;
+	height: auto;
+	float: left;
 }
 
 hr {
-  display: block;
-  border: 0;
-  margin: 10px 0;
-  background: #949494;
-  height: 0.5px;
-  width: 75%;
-  margin-top: 5.9%;
+	display: block;
+	border: 0;
+	margin: 10px 0;
+	background: #949494;
+	height: 0.5px;
+	width: 75%;
+	margin-top: 5.9%;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
-.footer-menu {
-    width: 25%;
-    padding: 0 2%;
-    line-height: 2;
-    padding-left: 10%;
-  }
+.footermenu {
+	width: 25%;
+	padding: 0 2%;
+	line-height: 2;
+	padding-left: 10%;
+}
 
-  .footer-menu  h3 {
-    color: black;
-    font-family: "Platypi", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 140%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-  } 
+.footermenu h3 {
+	color: black;
+	font-family: "Platypi", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 140%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
 
-  /* .footer-menu a h3 {
-    color: white;
-    font-family: "finalsix", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 140%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-  }  */
+.footermenu ul li {
+	color: white;
+	font-family: "poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 105%;
+	cursor: pointer;
+	text-decoration: none;
+}
 
-  .footer-menu  ul  li {
-    color: white;
-    font-family: "poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 105%;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .footer-menu  ul  li:hover {
-    color: #f06ca9;
-  }
-  
-  .footer-menu  ul  li  a {
-    color: white;
-    font-family: "poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 100%;
-    text-decoration: none;
-  }
-  
-.footer-menu  ul  li  a:hover {
-    color: #f06ca9;
-  } 
+.footermenu ul li:hover {
+	color: #f06ca9;
+}
 
-  .copyright > p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 80%;
-    text-align: center;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 6%;
-    color: white;
-  }
+.footermenu ul li a {
+	color: white;
+	font-family: "poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 100%;
+	text-decoration: none;
+}
 
-  /* KEYFRAMES */
+.footermenu ul li a:hover {
+	color: #f06ca9;
+}
 
-  @keyframes emerge {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 100;
-    }
-  }
+.copyright p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 80%;
+	text-align: center;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 6%;
+	color: white;
+}
+
+@keyframes emerge {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 100;
+	}
+}

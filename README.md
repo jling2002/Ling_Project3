@@ -24,3 +24,12 @@ https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=shari
 Fonts: Libre Baskerville, Platypi, Poppins
 
 <!-- give credits to the images used + resources for the codes-->
+
+https://www.tripadvisor.com/ShowUserReviews-g60713-d311684-r154967577-Golden_Gate_Park-San_Francisco_California.html (japanese tea garden)
+
+https://datebook.sfchronicle.com/entertainment/golden-gate-park-150th-anniversary-party-postponed-due-to-coronavirus (wheel)
+
+https://sanfranciscocentralhotel.com/explore-golden-gate-park/ (garden)
+
+https://meyersound.com/news/golden-gate-park/ (garden2)
+

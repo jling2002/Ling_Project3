@@ -11,6 +11,8 @@ WORK IN PROGRESS
 
 There are 4 pages: home, about, events, and shop. The home page has a short overview about the event, location, and its targeted audience. The user can use the navigation bar at the top right to navigate through the pages. The home page consist of information about mental health. The about page is the importance of mental health awareness and resources. The following page contains the events at the festival. The last page offers tote bages for users to further support this cause.
 
+The logo and graphic images were edited in Adobe Photoshop and Illustrator.
+
 # Branding Guide & Other Files Link
 https://drive.google.com/file/d/1E737srS9yC-JUXkmMG1O5XwhHOloy6-4/view?usp=sharing
 
@@ -25,22 +27,23 @@ Fonts: Libre Baskerville, Platypi, Poppins
 
 <!-- give credits to the images used + resources for the codes-->
 
-https://www.tripadvisor.com/ShowUserReviews-g60713-d311684-r154967577-Golden_Gate_Park-San_Francisco_California.html (japanese tea garden)
+# Image Sources:
 
-https://datebook.sfchronicle.com/entertainment/golden-gate-park-150th-anniversary-party-postponed-due-to-coronavirus (wheel)
+<a href="https://meyersound.com/news/golden-gate-park/">Conservatory of Flowers</a>
 
-https://sanfranciscocentralhotel.com/explore-golden-gate-park/ (garden)
+<a href="https://www.tripadvisor.com/ShowUserReviews-g60713-d311684-r154967577-Golden_Gate_Park-San_Francisco_California.html">Japanese Tea Garden</a>
 
-https://meyersound.com/news/golden-gate-park/ (garden2)
+<a href="https://datebook.sfchronicle.com/entertainment/golden-gate-park-150th-anniversary-party-postponed-due-to-coronavirus ">SkyStar Observation Wheel</a>
 
-https://www.cbsnews.com/news/returning-fans-jolt-life-back-into-concert-biz/ (concert)
+<a href="https://datebook.sfchronicle.com/entertainment/golden-gate-park-150th-anniversary-party-postponed-due-to-coronavirus ">Golden Gate Park Garden</a>
 
-https://www.psypost.org/study-15-minutes-of-meditation-associated-with-similar-effects-as-a-day-of-vacation/ (meditation)
+<a href="https://www.cbsnews.com/news/returning-fans-jolt-life-back-into-concert-biz/">People at concert</a>
 
-https://www.fargoparks.com/events-and-deadlines/yoga-park (yoga)
+<a href="https://www.psypost.org/study-15-minutes-of-meditation-associated-with-similar-effects-as-a-day-of-vacation/">Woman meditating</a>
 
-https://beautymatter.com/articles/2023-global-beauty-trade-shows-and-conferences (conference)
+<a href="https://www.fargoparks.com/events-and-deadlines/yoga-park">People doing yoga</a>
 
-https://swissranks.com/?u=this-beauty-conference-totally-aced-planning-their-educational-event-vv-3JAwA6i0 (conference1)
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fswissranks.com%2F%3Fu%3Dthis-beauty-conference-totally-aced-planning-their-educational-event-vv-3JAwA6i0&psig=AOvVaw0xLa7aJbxMdOrrK5mA0H0f&ust=1715831313350000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPCm7drgjoYDFQAAAAAdAAAAABA_">People at a conference</a>
 
-https://celebsecrets.com/nickelodeon-celebrates-grand-opening-of-west-coast-complex-with-special-event/ (nick)
+
+<a href="https://celebsecrets.com/nickelodeon-celebrates-grand-opening-of-west-coast-complex-with-special-event/">Nickelodeon Event</a>
